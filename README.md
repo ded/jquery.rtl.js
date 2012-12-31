@@ -10,7 +10,7 @@ $('.content').css({
   margin: '1px 2px 3px 4px',
   paddingLeft: '5px',
   right: '6px',
-  'text-decoration': 'left'
+  'text-align': 'left'
 })
   .animate({
     right: 50
@@ -19,12 +19,12 @@ $('.content').css({
 
 automatically runs through jQuery as this:
 
-``` js
+```js
 $('.content').css({
   margin: '1px 4px 3px 2px',
   paddingRight: '5px',
   left: '6px',
-  'text-decoration': 'right'
+  'text-align': 'right'
 })
   .animate({
     left: 50
